@@ -19,7 +19,7 @@ before_install:
  - "sudo /etc/init.d/redis-server stop"
  - "sudo free -m -t"
 
-script: mvn clean install -q
+script: mvn clean install -q     
 
 notifications:
   webhooks:
